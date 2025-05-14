@@ -2,7 +2,7 @@ const Button = ({ label, variant = "primary", ...props }) => {
   const baseStyles = "mt-4 cursor-pointer px-8 py-2 font-semibold rounded-full shadow transition";
 
   const variants = {
-    primary: "bg-black text-white hover:bg-gray-900",
+    primary: "bg-black px-10 text-white hover:bg-gray-900",
     secondary: "bg-white text-black hover:bg-gray-200",
   };
 
