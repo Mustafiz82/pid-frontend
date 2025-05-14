@@ -18,7 +18,7 @@ const BrandCard = ({ image, title, description }) => {
             <div>
                 <h2 className="text-2xl font-semibold">{title}</h2>
                 <p className="mt-2  text-gray-700">{description}</p>
-                <Button label={"Visit"} variant='primary' />
+                <Button href={`/${title.toLowercase()}`} label={"Visit"} variant='primary' />
             </div>
         </div>
     );
